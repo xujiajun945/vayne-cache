@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: vayne-cache
+
+server:
+  port: 9999
+
+vayne-cache:
+  redis:
+    address: redis://39.96.43.221:6379
+    key-prefix: xujiajun:test
+    password: 123456
+    timeout: 3000
